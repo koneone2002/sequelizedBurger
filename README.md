@@ -1,5 +1,5 @@
-# burger
-This assignment involved creating a burger application with MySQL, Node, Express, Handlebars and a homemade ORM.
+# burgerSequelized
+This assignment involved creating a burger application with MySQL, Node, Express, Handlebars and substituting the homemade ORM with Sequelize.
 My SQL and Node were used to query and route data in the application and Handlebars was used to generate HTML.
 
 The burger application is a restaurant app that lets users input the names of burgers that they'd like to eat.
@@ -15,6 +15,8 @@ Feel free to create your favorite burger!
 
 NODE DEPENDENCIES:
 MySql
+MySql2
+Sequelize
 Express
 Express-handlebars
 Body-Parser
