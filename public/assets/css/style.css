@@ -1,0 +1,72 @@
+.form-control {
+    margin-bottom: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid #ced4da;
+
+}
+
+.submit {
+    margin-bottom: 20px;
+}
+
+
+
+p {
+    font-family: 'Asap', sans-serif;
+    font-size: 14pt;
+
+}
+
+h1 {
+    font-family: 'Asap', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.col-xl-4 {
+    
+    margin: 0 auto;
+}
+.card {
+    background-color: rgb(238, 172, 114);
+    border: none;
+}
+body {
+    background-color:  rgb(238, 172, 114);
+}
+
+li {
+ 
+   padding: 5px 5px 0 5px;
+}
+.change-devour {
+   
+   font-family: 'Asap', sans-serif;
+  
+} 
+ul {
+    list-style: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.eatenBurgers {
+  
+    text-align: right;
+}
+
+.newBurgers {
+   
+    text-align: right;
+}
+.holdaburger {
+    width: 90%;
+    
+}
+.burgerCols {
+    margin: 0 auto;
+}

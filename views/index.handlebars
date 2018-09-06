@@ -1,0 +1,50 @@
+<div class="container-fluid">
+    <div class="col-xl-4">
+        <div class="card text-center" style="width: 100%;">
+            <img class="card-img-top img-fluid" src="/assets/img/burger2.png" alt="Card image cap">
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid holdaburger">
+    <div class="col-md-6 offset-1 burgerCols">
+        <div class="row">
+            <div class="col-md-6 container newBurgers">
+
+                <ul>
+                    {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devoured=false}} {{/unless}} {{/each}}
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-6 container eatenBurgers">
+                <ul>
+                    {{#each burgers}} {{#if devoured}} {{> burgers/burger-block devoured=true}} {{/if}} {{/each}}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid">
+    <div class="col-xl-4">
+        <div class="card-body text-center">
+            <h1 class="card-title text-center">Eat-Da-Burger!</h1>
+            <textarea class="form-control" id="newBurger"></textarea>
+            <a href="#section3" class="btn btn-primary submit create-burger" id="btn2">Submit</a>
+            <p>Enter a burger you want to eat - Click the Submit button!</p>
+        </div>
+
+    </div>
+
+
+
+
+
+</div>
